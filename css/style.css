@@ -294,6 +294,10 @@ header .intro-text {
 #portfolio {
 	padding: 0 0 120px 0;
 }
+#cambioPadding > #portfolio {
+	padding: 0 0 0 0;
+}
+
 #portfolio .section-title {
 	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
