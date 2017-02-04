@@ -11,7 +11,7 @@ $("document").ready(function(){
     /*ocultación/mostrar elementos de los Primeros*/
     var primeros = $("#primeros");
     var primeros_items = $(".prim");
-    entrante_items.hide();
+    primeros_items.hide();
     primeros.click(function(){
         primeros_items.toggle();
     });
