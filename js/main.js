@@ -68,6 +68,14 @@ function main() {
             return false;
         });
 
+        $('#reservar').click(function() {
+            if($('#contactForm div div div input').filter(function(){
+                return !$(this).val();
+            }).length === 0){
+                $('#modalReserva').modal('show');
+            }
+        });
+
     });
 	
     // Nivo Lightbox 
