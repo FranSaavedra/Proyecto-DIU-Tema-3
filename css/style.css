@@ -298,11 +298,20 @@ header .intro-text {
 	padding: 0 0 0 0;
 }
 
-#portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+#portfolio .section-title {	
+	
 	background-size: cover;
 	margin-bottom: 50px;
 }
+
+.cambiaFondoReservas {
+	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+}
+
+.cambiaFondoGaleria {
+	background: #444 url(../img/galeria.jpg) center center no-repeat fixed;
+}
+
 #portfolio .section-title h2 {
 	color: #fff;
 }
