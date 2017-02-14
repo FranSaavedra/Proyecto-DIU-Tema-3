@@ -88,6 +88,9 @@ function main() {
             }
             $('#modalContacto').modal('show');
         });
+        var currentDate = new Date();
+        $('.media-body h4 small i').text(currentDate.getDate() + "/" + (currentDate.getMonth() + 1) + "/" +
+            currentDate.getFullYear());
     });
 	
     // Nivo Lightbox 
