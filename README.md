@@ -2,8 +2,7 @@
 
 ## Desarrolladores
 
-Francisco Saavedra
-Francisco Javier Calvo 
+Francisco Saavedra y Francisco Javier Calvo 
 
 ## Link 
 
