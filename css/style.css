@@ -649,3 +649,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 #bebidas a{
     cursor: pointer;
 }
+
+#mapa {
+    height: 70%;
+    width: 50%;
+    align-content: center;
+} 
+
+.info_mapa{
+    width: 25%;
+    margin-left: 52%;
+}
