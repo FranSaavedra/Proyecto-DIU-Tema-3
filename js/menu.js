@@ -9,10 +9,6 @@ $("document").ready(function(){
         entrante_items.toggle();
     });
     
-    entrante.hover(function(){
-       entrante.css("cursor",["pointer"]) 
-    });
-    
     /*ocultación/mostrar elementos de los Primeros*/
     var primeros = $("#primeros");
     var primeros_items = $(".prim");
@@ -22,9 +18,6 @@ $("document").ready(function(){
         primeros_items.toggle();
     });
     
-    primeros.hover(function(){
-       primeros.css("cursor",["pointer"]) 
-    });
     
     
     /*ocultación/mostrar elementos de los Segundos*/
@@ -36,9 +29,7 @@ $("document").ready(function(){
         segundo_items.toggle();
     });
     
-    segundos.hover(function(){
-       segundos.css("cursor",["pointer"]) 
-    });
+
     
     
     /*ocultación/mostrar elementos de los Postres*/
@@ -49,23 +40,16 @@ $("document").ready(function(){
     postres.click(function(){
         postre_items.toggle();
     });
-    
-    postres.hover(function(){
-       postres.css("cursor",["pointer"]) 
-    });
-    
+
     
     /*ocultación/mostrar elementos de los Bebidas*/
+    var bebidas = $("#bebidas");
     var bebidas = $("#bebidas");
     var bebidas_items = $(".bebi");
     bebidas_items.hide();
     
     bebidas.click(function(){
         bebidas_items.toggle();
-    });
-    
-    bebidas.hover(function(){
-       bebidas.css("cursor",["pointer"]) 
     });
     
 });

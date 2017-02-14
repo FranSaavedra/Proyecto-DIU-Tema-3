@@ -629,3 +629,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 #footer a:hover {
 	color: #333;
 }
+
+#entrante a{
+    cursor: pointer;
+}
+
+#primeros a{
+    cursor: pointer;
+}
+
+#segundos a{
+    cursor: pointer;
+}
+
+#postres a{
+    cursor: pointer;
+}
+
+#bebidas a{
+    cursor: pointer;
+}
