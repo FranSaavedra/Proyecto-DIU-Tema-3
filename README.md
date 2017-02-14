@@ -1,4 +1,9 @@
-# Proyecto-DIU-Tema-3
+# Proyecto DIU Bootstrap
+
+## Desarrolladores
+
+Francisco Saavedra
+Francisco Javier Calvo 
 
 ## Link 
 
