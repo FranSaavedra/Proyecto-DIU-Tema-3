@@ -79,6 +79,15 @@ function main() {
             $('#modalReserva').modal('show');
         });
 
+        $('#enviar').click(function() {
+            if($('#contactForm div div div input').filter(function(){
+                return !$(this).val();
+            }).length === 0 && $('#contactForm div textarea').val() !== ''){
+                $('#modal-message').text('Su mensaje ha sido enviado correctamente. ' + 
+                    'Le responderemos lo antes posible. Gracias.');
+            }
+            $('#modalContacto').modal('show');
+        });
     });
 	
     // Nivo Lightbox 
