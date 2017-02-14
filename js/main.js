@@ -72,8 +72,11 @@ function main() {
             if($('#contactForm div div div input').filter(function(){
                 return !$(this).val();
             }).length === 0){
-                $('#modalReserva').modal('show');
+                $('#modal-message').text('Su reserva ha sido confirmada correctamente.Gracias.');
+            }else{
+                $('#modal-message').text('Para confirmar su reserva debe completar todos los campos.');
             }
+            $('#modalReserva').modal('show');
         });
 
     });
