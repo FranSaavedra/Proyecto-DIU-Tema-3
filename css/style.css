@@ -651,12 +651,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 
 #mapa {
-    height: 70%;
-    width: 50%;
-    align-content: center;
+    height: 190px;
 } 
-
-.info_mapa{
-    width: 25%;
-    margin-left: 52%;
-}
