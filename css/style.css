@@ -312,6 +312,10 @@ header .intro-text {
 	background: #444 url(../img/galeria.jpg) center center no-repeat fixed;
 }
 
+.cambiaFondoContacto {
+	background: #444 url(../img/contact.png) center center no-repeat fixed;
+}
+
 #portfolio .section-title h2 {
 	color: #fff;
 }
